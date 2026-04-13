@@ -23,3 +23,21 @@ if play_button:
       st.video(video)
       
     st.success('Audio/Video played successfully!')
+    
+    
+    
+#============ task 3 ================
+
+# audio = st.file_uploader('Upload your audio file', type=['mp3', 'ogg'])
+# video = st.file_uploader('Upload your video file', type=['mp4', 'mkv'])
+
+# button = st.button('Play')
+
+# if button:
+#   if audio or video:
+#     if audio:
+#       st.audio(audio)
+#     if video:
+#       st.video(video)
+#   else:
+#     st.error('Please Upload a file first.')
