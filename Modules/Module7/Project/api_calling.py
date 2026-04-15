@@ -7,7 +7,7 @@ import io
 # loading the environmental variables
 load_dotenv()
 
-api_key = os.getenv("GENAI_API_KEY")
+api_key = os.getenv("GEMINI_API_KEY")
 
 # initializing a client
 client = genai.Client(api_key=api_key)
